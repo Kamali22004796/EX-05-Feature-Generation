@@ -25,7 +25,7 @@ Program Developed: KAMALI.E
 Register number:212222110015
 
 # data.csv:
-
+~~~
 import pandas as pd
 df=pd.read_csv("data.csv")
 df
@@ -81,7 +81,7 @@ from sklearn.preprocessing import RobustScaler
 sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'City', 'Ord_1','Ord_2','Target'])
 df5
-
+~~~
 # data.csv output 
 
 ![Screenshot 2023-04-16 083053](https://user-images.githubusercontent.com/120567837/232263967-1fb83d04-6e89-47db-b178-261a243463e0.png)
