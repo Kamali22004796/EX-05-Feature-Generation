@@ -167,7 +167,7 @@ df4
 ![Screenshot 2023-04-16 093815](https://user-images.githubusercontent.com/120567837/232265927-48467529-19a6-4923-823b-3b52f7380442.png)
 
 # Tiatanic.csv Code:
-
+~~~
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
 df
@@ -221,6 +221,7 @@ from sklearn.preprocessing import RobustScaler
 sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
 df5
+~~~
 
 # Titanic.csv Output:
 
