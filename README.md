@@ -100,6 +100,7 @@ df5
 
 # encoding.csv code:
 
+~~~
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
 df
@@ -147,6 +148,7 @@ from sklearn.preprocessing import RobustScaler
 sc3=RobustScaler()
 df4=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'nom_0','ord_2'])
 df4
+~~~
 
 # encoding.csv output:
 
